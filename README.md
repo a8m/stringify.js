@@ -1,4 +1,4 @@
-##Stringify.js - Like JSON.stringify, but more sense
+###Stringify.js - like JSON.stringify, but more sense  
 [![NPM version][npm-image]][npm-url]
 [![Build status][travis-image]][travis-url]
 [![Test coverage][coveralls-image]][coveralls-url]

@@ -13,6 +13,7 @@ $ npm install stringify.js --save
 ```
 
 ## Usage
+####`.stringify(object, spaces[optional])`
 ```js
 var stringify = require('stringify.js');
 var expected = {

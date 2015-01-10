@@ -1,0 +1,35 @@
+{
+  "name": "stringify.js",
+  "description": "Like JSON.stringify, but more sense.",
+  "version": "0.1.0",
+  "filename": "index.js",
+  "main": "index.js",
+  "homepage": "https://github.com/a8m/stringify.js",
+  "author": "Ariel Mashraki <ariel@mashraki.co.il>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/a8m/stringify.js"
+  },
+  "engines": {
+    "node": ">=0.8.0"
+  },
+  "keywords": [
+    "JSON",
+    "stringify",
+    "print"
+  ],
+  "dependencies": {
+    "bluebird": "^2.3.11",
+    "documentdb": "^0.9.1"
+  },
+  "devDependencies": {
+    "agile": "0.0.2",
+    "istanbul": "^0.3.2",
+    "mocha": "^1.21.5",
+    "should": "^4.1.0"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/istanbul cover ./node_modules/mocha/bin/_mocha -- -u exports test.js"
+  },
+  "license": "MIT"
+}

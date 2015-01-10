@@ -38,8 +38,7 @@ var expected = {
       global: global
     };
 expected.circular = expected; // Make a `Circular` situation
-console.log(stringify(expected, 2)) // Print result
-/*
+console.log(stringify(expected, 2)); /* Print result
 {
   "array": [
     1,
@@ -93,7 +92,7 @@ console.log(stringify(expected, 2)) // Print result
 ## License
 
 MIT © [Ariel Mashraki](https://github.com/a8m)
-npm-image]: https://img.shields.io/npm/v/stringify.js.svg?style=flat-square
+[npm-image]: https://img.shields.io/npm/v/stringify.js.svg?style=flat-square
 [npm-url]: https://npmjs.org/package/stringify.js
 [travis-image]: https://img.shields.io/travis/a8m/stringify.js.svg?style=flat-square
 [travis-url]: https://travis-ci.org/a8m/stringify.js

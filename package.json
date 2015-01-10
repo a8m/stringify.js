@@ -1,7 +1,7 @@
 {
   "name": "stringify.js",
   "description": "Like JSON.stringify, but more sense.",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "filename": "index.js",
   "main": "index.js",
   "homepage": "https://github.com/a8m/stringify.js",
@@ -18,10 +18,7 @@
     "stringify",
     "print"
   ],
-  "dependencies": {
-    "bluebird": "^2.3.11",
-    "documentdb": "^0.9.1"
-  },
+  "dependencies": {},
   "devDependencies": {
     "agile": "0.0.2",
     "istanbul": "^0.3.2",
